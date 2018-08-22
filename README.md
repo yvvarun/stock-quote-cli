@@ -1,6 +1,6 @@
 # stock-quote-cli
 
-> Real time stock quote data retrieved from yahoo finance.
+> Real time stock data retrieved from yahoo finance.
 
 ## Info
 
@@ -44,34 +44,20 @@ https://help.yahoo.com/kb/SLN2310.html
 ## Data Format
 The data returned when the promise is resolved will have the following format:
 
-{
-    "symbol": "GOOGL",
-    
-    "currency": "USD",
-    
-    "currentPrice": "1,217.41",
-    
-    "totalRevenue": "123.9B",
-    
-    "ebitda": "38.21B",
-    
-    "cashPerShare": "146.99",
-    
-    "currentRatio": "4.15",
-    
-    "quickRatio": "4.00",
-    
-    "debtToEquity": "2.46",
-    
-    "revenuePerShare": "178.41",
-    
-    "grossProfits": "65.27B",
-    
-    "grossMargins": "57.41%",
-    
-    "operatingMargins": "24.48%",
-    
-    "profitMargins": "13.16%",
-    
-    "ebitdaMargins": "30.84%"
+{  
+    "symbol": "GOOGL",  
+    "currency": "USD",  
+    "currentPrice": "1,217.41",  
+    "totalRevenue": "123.9B",  
+    "ebitda": "38.21B",  
+    "cashPerShare": "146.99",  
+    "currentRatio": "4.15",  
+    "quickRatio": "4.00",  
+    "debtToEquity": "2.46",  
+    "revenuePerShare": "178.41",  
+    "grossProfits": "65.27B",  
+    "grossMargins": "57.41%",  
+    "operatingMargins": "24.48%",  
+    "profitMargins": "13.16%",  
+    "ebitdaMargins": "30.84%"  
 }
