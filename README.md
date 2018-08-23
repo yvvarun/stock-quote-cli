@@ -10,7 +10,7 @@ Yahoo finance provides stock price and details for stocks using a particular Id 
 
 You can get the list of exchanges from the following URL:
 ```
-https://help.yahoo.com/kb/SLN2311.html
+https://help.yahoo.com/kb/SLN2310.html
 ```
 
 ## Install
@@ -20,7 +20,7 @@ pip install stock-quote-cli
 ## Usage
 ```
 stock <SYMBOL> <EXCHANGE>
-<EXCHANGE> to be provided only if the stock is not listed on NYSE
+<EXCHANGE> to be provided only if the stock is not listed on NYSE/NASDAQ
 ```
 
 To get stock quote of Google listed in NASDAQ, use the following code snippet:
