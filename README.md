@@ -42,7 +42,7 @@ https://help.yahoo.com/kb/SLN2310.html
 
 
 ## Data Format
-The data returned when the promise is resolved will have the following format:
+The data returned will have the following format:
 
 {  
     "symbol": "GOOGL",  
